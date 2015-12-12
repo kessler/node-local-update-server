@@ -8,6 +8,9 @@
     "email": "yanivk@gmail.com",
     "url": "http://blog.yanivkessler.com"
   },
+  "bin": {
+      "local-update-server": "cli.js"
+    },
   "scripts": {
     "test": "mocha test/**/*.js"
   },
