@@ -1,6 +1,8 @@
 # local-update-server
 
-A tool that creates a local update server. Using this tool one defines a version and a download http endpoints, the tool then takes over the domains used (hosts file) and serves the content. Very useful for local testing and such
+A tool that creates a local update server, Useful for local testing and such. 
+
+Using this tool one defines a version and a download http endpoints, the tool then takes over the domains used (hosts file) and serves the content. 
 
 [![npm status](http://img.shields.io/npm/v/update-mock-server.svg?style=flat-square)](https://www.npmjs.org/package/update-mock-server) 
 
