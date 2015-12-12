@@ -1,0 +1,31 @@
+{
+  "name": "local-update-server",
+  "version": "0.0.1",
+  "description": "A tool to quickly create a local update server",
+  "license": "MIT",
+  "author": {
+    "name": "yaniv kessler",
+    "email": "yanivk@gmail.com",
+    "url": "http://blog.yanivkessler.com"
+  },
+  "scripts": {
+    "test": "mocha test/**/*.js"
+  },
+  "dependencies": {
+    "commander": "^2.9.0",
+    "connect-static-file": "^1.1.2",
+    "express": "^4.13.3",
+    "hostile": "^1.0.2",
+    "rc": "^1.1.5"
+  },
+  "devDependencies": {
+    "chai": "^3.4.1",
+    "chai-things": "^0.2.0",
+    "mocha": "^2.3.4",
+    "request": "^2.67.0"
+  },
+  "engines": {
+    "node": ">=0.10.0",
+    "npm": ">=2.0.0"
+  }
+}
